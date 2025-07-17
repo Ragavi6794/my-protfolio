@@ -18,7 +18,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+![Portfolio Demo](https://i.postimg.cc/QM5tj7fP/react-tailwindcss.png)
 
 ---
 
@@ -152,7 +152,7 @@ You will need to download **Git** and **Node** to run this project.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
   ```bash
-  git clone https://github.com/seraprogrammer/portfolio.git
+  git clone[ https://github.com/Ragavi6794/my-protfolio]
   ```
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
@@ -190,7 +190,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Nazmul Hossain </div>
+<div align="center"> Made with ❤️ by Ragavi </div>
 
 =======
 # my-protfolio
