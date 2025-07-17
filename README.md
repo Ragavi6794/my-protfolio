@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Website
 <div align="center">
   <pre>
@@ -191,3 +192,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <div align="center"> Made with ❤️ by Nazmul Hossain </div>
 
+=======
+# my-protfolio
+>>>>>>> f0baa6c833778ec75c28643379ca21c5dc65fbc2
