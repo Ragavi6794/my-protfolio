@@ -63,8 +63,8 @@ const projects = [
       src: "react.jpg",
     link: "https://i.postimg.cc/QM5tj7fP/react-tailwindcss.png",
     color: "#8f89ff",
-    githubLink: "#",
-    liveLink: "#",
+    githubLink: "https://github.com/Ragavi6794/my-protfolio",
+    liveLink: "https://ragavi-webfolio.vercel.app/",
   },
    {
     title: "Kushi - Multipurpose Shopify Theme 2.0",
