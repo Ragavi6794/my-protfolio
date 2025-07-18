@@ -26,11 +26,11 @@ const ExperienceCard = ({
 
       {/* Content with improved typography */}
       <div className="space-y-3">
-        <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+        <h3 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
           {title}
         </h3>
         <div className="flex flex-wrap gap-3 justify-between items-center text-gray-300">
-          <span className="font-semibold text-blue-400 w-44">{company}</span>
+          <span className="font-semibold text-blue-400 text-xl">{company}</span>
           <span className="text-sm font-mono bg-blue-500/10 text-slate-300 px-3 py-1 rounded-full">
             {period}
           </span>
