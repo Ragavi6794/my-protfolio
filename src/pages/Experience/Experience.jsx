@@ -29,7 +29,7 @@ const ExperienceCard = ({
         <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
           {title}
         </h3>
-        <div className="flex justify-between items-center text-gray-300">
+        <div className="flex flex-wrap gap-3 justify-between items-center text-gray-300">
           <span className="font-semibold text-blue-400 w-44">{company}</span>
           <span className="text-sm font-mono bg-blue-500/10 text-slate-300 px-3 py-1 rounded-full">
             {period}
@@ -85,7 +85,8 @@ const ExperienceSection = () => {
       <ul className="list-disc pl-5 space-y-1">
         
         <li>Customized storefronts using <i className="text-white">HTML5, CSS3, Bootstrap 5, JavaScript, and Liquid </i> by writing clean, maintainable code.</li>
-        <li>  I developed multiple	premium themes based on <i className="text-white">Converted Figma/PSD designs into pixel-perfect, responsive Shopify themes.</i></li>
+        <li>  I developed multiple	premium themes based on <i className="text-white">Converted Figma/PSD designs into pixel-perfect, responsive Shopify themes.</i></li> 
+        <li>I Worked extensively on Shopify 2.0 framework,<i className="text-white"> building scalable theme Framework</i> with support for product, collection, blog templates, AJAX cart, and dynamic filtering.</li>
         <li> I’ve also handled <i className="text-white"> dynamic & custom sections, blocks,
             third-party app integrations, custom metafields, checkout customizations, and payment gateway </i>
 						setups delivering complete end-to-end solutions for e-commerce businesses.</li>
@@ -182,7 +183,7 @@ const ExperienceSection = () => {
           </div>
 
           {/* Experience grid with improved layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1  lg:grid-cols-2 gap-10 max-w-7xl mx-auto">
             {experiences.map((exp, index) => (
               <ExperienceCard key={index} {...exp} />
             ))}

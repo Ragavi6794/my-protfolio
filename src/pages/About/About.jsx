@@ -23,12 +23,14 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm <i className="font-bold">Ragavi M</i>, I’m a passionate <span className="font-bold text-teal-300">Shopify Developer </span> with
-							  strong skills in <i className="font-bold text-white">HTML5, CSS3,Tailwind CSS, Bootstrap5 , JavaScript,
-                React Js and Liquid </i>. I specialize in building custom Shopify themes that are fully responsive,
-								SEO-friendly, and optimized for performance.
-               </p>
-               
+  Hello! I'm <i className="font-bold">Ragavi M</i>, a passionate <span className="font-bold text-teal-300">Shopify Developer</span> with
+  <span className="font-bold"> 2.3 years of experience </span>in Shopify theme development and <br/>    
+  <span className="font-bold"> 1 year of experience </span>working with React.js and Recently, I've expanded into Reactjs and Tailwind CSS, where I love building clean and responsive UIs. 
+  <br /><br />
+  I specialize in building custom, responsive, and performance-optimized Shopify themes using 
+  <i className="font-bold text-white"> HTML5, CSS3, Tailwind CSS, Bootstrap 5, JavaScript, Liquid, and ReactJS</i>. 
+  My focus is on delivering SEO-friendly, clean, and modern UI experiences that align with both user expectations and business goals.
+</p>
                {/* <p className="text-white">
                  I developed multiple	premium themes based on Converted Figma/PSD designs into pixel-perfect, 
                  responsive Shopify themes. I’ve also handled <i className="font-bold text-white"> 
@@ -43,7 +45,7 @@ export default function About() {
               </p>
 
               <p>
-                I'm currently building a Shopify theme with <i className="text-white font-bold">Horizon framework and AI integration</i> for smarter, user-focused e-commerce
+                I'm currently building a Shopify theme with <i className="text-white font-bold">Horizon framework and AI integration</i> for smarter, user-focused <br/> E-Commerce.
               </p>
 
               <p className="text-white">

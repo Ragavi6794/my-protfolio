@@ -2,34 +2,173 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
-import {FaReact, FaShopify} from "react-icons/fa";
-
+import { FaReact, FaShopify } from "react-icons/fa";
 
 const projects = [
-   {
+  {
     title: "Glamora - Jewellery Store Shopify 2.0",
-    subtitle:"Shopify store - 2.0",
-    description:(
-<ul className="list-disc pl-5 space-y-1">
-<li>Glamorous jewellery with responsive Shopify theme with <span className="text-white font-bold-300">custom sections and blocks, built independently developed using HTML, CSS, JS and Liquid.</span></li>
-<li>Achieved <span className="text-white font-bold-300">80+ sales</span> on ThemeForest within 6 months and significantly increasing company revenue 💻✨.</li>
-</ul>  
-),
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          Independently built using{" "}
+          <i className="text-white">HTML5, CSS3, JavaScript, and Liquid</i>.
+        </li>
+        <li>
+          Fully responsive and includes customizable sections, integrated with{" "}
+          <i className="text-white">Inbox, Judge.me, and Translate</i> apps.
+        </li>
+        <li>
+          Achieved <i className="text-white font-bold-300">80+ sales</i> on
+          ThemeForest within just 6 months. 💻✨
+        </li>
+      </ul>
+    ),
     src: "glamora.jpg",
     link: "https://i.postimg.cc/TwX4Dhzy/glamora-jewel.png",
     color: "#6bd6fa",
     githubLink: "#",
     liveLink: "https://dt-glamora.myshopify.com/",
   },
+  
+  {
+    title: "Alagi - Horizon shopify updated version -2025",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          <strong>Alagi</strong> (password: <i>buddha</i>) is a responsive &
+          built independently using{" "}
+          <span className="text-white font-bold-300">
+            HTML5, CSS3, Bootstrap 5, JavaScript, and Liquid
+          </span>
+          .
+        </li>
+        <li>
+          Developed with{" "}
+          <span className="text-white font-bold-300">AI integration</span>,
+          featuring customizable,{" "}
+          <span className="text-white font-bold-300">
+            reusable dynamic and static block sections
+          </span>
+          . Optimized for high performance & a modern shopping experience. 💻✨
+        </li>
+      </ul>
+    ),
+
+    subtitle: "Shopify store - 2.0",
+    src: "alagi.jpg",
+    link: "https://i.postimg.cc/7hqZ155J/alagi.png",
+    color: "#8ff7bc",
+    githubLink: "#",
+    liveLink: "https://wdt-alagi.myshopify.com/",
+  },
+
+  {
+    title: "🚀 Ai-kit - Course Store",
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          🚀 Independently built using{" "}
+          <span className="text-white font-bold-300">
+            HTML5, CSS3, JavaScript, and Liquid
+          </span>
+          .
+        </li>
+        <li>
+          Added features in{" "}
+          <span className="text-white font-bold-300">
+            custom metafields for course details in product, gradient color
+            scheme option
+          </span>{" "}
+          with elegant animations, app integrations, responsive layouts, and
+          customizable section blocks. 💻✨
+        </li>
+      </ul>
+    ),
+    src: "aikit.jpg",
+    link: "https://i.postimg.cc/m2d0VPcf/ai-kit.png",
+    color: "#f7ed8f",
+    githubLink: "#",
+    liveLink: "https://wdt-ai-kit.myshopify.com/",
+  },
    {
+    title: "Kushi - Multipurpose Shopify Theme 2.0",
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          Built with{" "}
+          <span className="text-white font-bold-300">
+            HTML5, CSS3, JavaScript, and Liquid
+          </span>
+          , achieved through seamless <i>team collaboration</i>.{" "}
+        </li>
+        <li>
+          It includes{" "}
+          <span className="text-white font-bold-300">
+            10 stylish theme layouts, 40+ stylish layouts for main-product, 2+
+            of contact layouts , 5+ footer layouts{" "}
+          </span>{" "}
+          making with responsived it perfect reusable sections and blocks. 💻✨
+        </li>
+      </ul>
+    ),
+
+    src: "kushi.jpg",
+    link: "https://i.postimg.cc/TYDTyj7N/kushi.png",
+    color: "#fff",
+    githubLink: "#",
+    liveLink: "https://wdt-aahca.myshopify.com/",
+  },
+  {
+    title: "🚀 Evoluxia - AI Store 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          🚀It features stunning gradient color palettes schema option and mass
+          creative UI animations, delivering a visually rich experience.
+        </li>
+        <li>
+          It's an exceptionally optimized theme and
+          <span className="text-white font-bold-300">
+            {" "}
+            built with independatally using HTML5, CSS3, Js,Liquid{" "}
+          </span>{" "}
+          with customization sections and flexible settings. 💻✨.
+        </li>
+      </ul>
+    ),
+    subtitle: "Shopify store - 2.0",
+    src: "Evoluxia.jpg",
+    link: "https://i.postimg.cc/KzKf5Ygf/evoluxia.png",
+    color: "#ed649e",
+    githubLink: "#",
+    liveLink: "https://evoluxia-theme.myshopify.com/",
+  },
+ 
+  {
     title: "Primposh - Beauty & Cosmetic Shopify Theme",
-    subtitle:"Shopify store - 2.0",
-    description:(
-    <ul className="list-disc pl-5 space-y-1">
-      <li>Primposh is suits perfectly for Online stores selling cosmetics, beauty, makeup, beauty spa cosmetics eCommerce theme build with <span className="text-white font-bold-300"> HTML5, CSS3, Js,Liqud lang with responsive.</span></li>
-      <li>It achieving <span className="text-white font-bold-300">100+ sales</span> with custom sections and flexible settings 💻✨.</li>
-      
-    </ul>
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          Independently built using{" "}
+          <span class="text-white font-bold-300">
+            HTML5, CSS3, JavaScript, and Liquid
+          </span>
+          .
+        </li>
+        <li>
+          Added customizable sections and blocks with{" "}
+          <span class="text-white">Judge.me app</span> and{" "}
+          <span class="text-white">Search & Discovery</span> app integration.
+        </li>
+        <li>
+          Achieved <span class="text-white font-bold-300">100+ sales</span> on
+          ThemeForest with flexible design options. 💻✨
+        </li>
+      </ul>
     ),
     src: "primposh.png",
     link: "https://i.postimg.cc/zX01MdcQ/primposh.png",
@@ -38,115 +177,111 @@ const projects = [
     liveLink: "https://primposh-theme.myshopify.com/",
   },
   {
-    title: "Alagi - Horizon shopify updated version -2025",
-    description:
-    (
-    <ul className="list-disc pl-5 space-y-1">
-      <li>Alagi - (password:buddha) is a fully responsive cosmetics Shopify theme built independently with <span className="text-white font-bold-300">HTML, CSS, Bootstrap, JavaScript, and Liquid</span>. </li>
-      <li>Developed on <span className="text-white font-bold-300">AI-integrated , customizable sections, blocks, and speed-optimized performance</span> for a modern shopping experience. 💻✨</li>
-    </ul>
+    title: "Skinbliss - Beauty Store",
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          Built with{" "}
+          <span className="text-white font-bold-300">
+            HTML5, CSS3, JavaScript,Liquid & third party app integration.
+          </span>
+          .{" "}
+        </li>
+        <li>
+          It features elegant unique custom section blocks for a modern,
+          customizable user experience 💻✨.
+        </li>
+      </ul>
     ),
-      
-    subtitle:"Shopify store - 2.0",
-    src: "alagi.jpg",
-    link: "https://i.postimg.cc/7hqZ155J/alagi.png",
-    color: "#8ff7bc",
+
+    src: "skinbliss.jpg",
+    link: "https://i.postimg.cc/ZRVcZdzJ/skinbliss.png",
+    color: "#8f89ff",
     githubLink: "#",
-    liveLink: "https://wdt-alagi.myshopify.com/",
+    liveLink: "https://skinbliss-theme.myshopify.com/",
   },
-   {
+  {
+    title: "Swarna - Jewellery Store",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li>
+          Stunning Shopify theme for jewellery and fashion businesses, built
+          independently using{" "}
+          <span className="text-white font-bold-300">
+            HTML5, CSS3, JavaScript, Bootstrap5, and Liquid.
+          </span>
+        </li>
+        <li>
+          It features fully responsive design, dynamic section blocks, and
+          optimized speed for a smooth shopping experience. 💻✨
+        </li>
+      </ul>
+    ),
+
+    subtitle: "Shopify store - 2.0",
+    src: "swarna.jpg",
+    link: "https://i.postimg.cc/HLMRp36d/swarna.png",
+    color: "#ed649e",
+    githubLink: "#",
+    liveLink: "https://swarna-theme.myshopify.com/",
+  },
+  {
     title: "🚀 A sleek portfolio built with React and Tailwind CSS ",
-    subtitle:"Shopify store - 2.0",
-    description:(
-      <p>A sleek portfolio built with <span className="text-white font-bold-300">HTML5, CSS3, Reactjs and Tailwind CSS </span> to showcase our skills, projects, and experience in a modern design 💻✨.</p>
-      ),  
-      src: "react.jpg",
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <p>
+        A sleek portfolio built with{" "}
+        <span className="text-white font-bold-300">
+          HTML5, CSS3, Reactjs and Tailwind CSS{" "}
+        </span>{" "}
+        to showcase our skills, projects, and experience in a modern design
+        💻✨.
+      </p>
+    ),
+    src: "react.jpg",
     link: "https://i.postimg.cc/QM5tj7fP/react-tailwindcss.png",
     color: "#8f89ff",
     githubLink: "https://github.com/Ragavi6794/my-protfolio",
     liveLink: "https://ragavi-webfolio.vercel.app/",
   },
-   {
-    title: "Kushi - Multipurpose Shopify Theme 2.0",
-    subtitle:"Shopify store - 2.0",
-    description:(
-    <ul className="list-disc pl-5 space-y-1">
-      <li>Kushi is a multipurpose Shopify theme built with <span className="text-white font-bold-300">HTML, CSS, JavaScript, and Liquid</span>, achieved through seamless team collaboration. </li>
-      <li>It includes 10 stylish demo layouts, making it perfect dynamic sections and blocks. 💻✨</li>
-    </ul>
-    ),
-    
-    src: "kushi.jpg",
-    link: "https://i.postimg.cc/TYDTyj7N/kushi.png",
-    color: "#fff",
-    githubLink: "#",
-    liveLink: "https://wdt-aahca.myshopify.com/",
-  },
+
   {
-    title: "Skinbliss - Beauty Store",
-    subtitle:"Shopify store - 2.0",
-    description:
-    (
-    <ul className="list-disc pl-5 space-y-1">
-      <li>SkinBliss is a premium cosmetic theme built with <span className="text-white font-bold-300">HTML, CSS, JavaScript, and Liquid</span>. </li>
-      <li>It features elegant animations and dynamic custom section blocks for a modern, customizable user experience 💻✨.</li>
-    </ul>
-    ),
-      
-    src: "skinbliss.jpg",
-    link: "https://i.postimg.cc/ZRVcZdzJ/skinbliss.png",
-    color: "#8f89ff",
-    githubLink: "#",
-    liveLink:"https://skinbliss-theme.myshopify.com/",
-  },
-  {
-    title: "Swarna - Jewellery Store",
-    description:
-      (
-    <ul className="list-disc pl-5 space-y-1">
-      <li>Swarna is a stunning Shopify theme for jewellery and fashion businesses, built independently using <span className="text-white font-bold-300">HTML5, CSS3, JavaScript, Bootstrap5, and Liquid.</span></li>
-      <li>It features fully responsive design, dynamic section blocks, and optimized speed for a smooth shopping experience. 💻✨</li>
-    </ul>
-    ),
-      
-    subtitle:"Shopify store - 2.0",
-      src: "swarna.jpg",
-    link: "https://i.postimg.cc/HLMRp36d/swarna.png",
-    color: "#ed649e",
-    githubLink: "#",
-    liveLink:"https://swarna-theme.myshopify.com/",
-  },
-{
-    title: "🚀 Evoluxia - AI Store 2.0",
-    description:(
-     <ul className="list-disc pl-5 space-y-1">
-      <li>🚀 Evoluxia – AI Store Shopify 2.0 Theme features stunning gradient color palettes and mass animations, delivering a visually rich experience.</li>
-      <li>It's an exceptionally optimized theme and<span className="text-white font-bold-300"> built with HTML5, CSS3, Js,Liquid  </span> with custom sections and flexible settings 💻✨.</li>
+    title: "🚀Form Validations - React and Bootstrap ",
+    subtitle: "Shopify store - 2.0",
+    description: (
+      <ul className="list-disc pl-5 space-y-1">
+        <li className="text-white leading-relaxed">
+          Built{" "}
+          <span className="font-semibold text-teal-300">AFI Athletics</span>{" "}
+          login & multi-step registration forms using{" "}
+          <span className="font-semibold text-yellow-300">
+            HTML5, CSS3, React.js
+          </span>{" "}
+          and <span className="font-semibold text-yellow-300">Bootstrap 5</span>
+          .
+        </li>
+        <li>
+          {" "}
+          Used <span className="font-semibold text-green-300">
+            React hooks
+          </span>{" "}
+          like <span className="italic text-pink-300">useState</span> and{" "}
+          <span className="italic text-pink-300">useEffect</span> for
+          step-by-step validation and dynamic field management.{" "}
+        </li>
+        <li>
+          Responsive UI, real-time input validation, and reusable components
+          enhance user experience.
+        </li>
       </ul>
-      ), 
-    subtitle:"Shopify store - 2.0",
-      src: "Evoluxia.jpg",
-    link: "https://i.postimg.cc/KzKf5Ygf/evoluxia.png",
-    color: "#ed649e",
-    githubLink: "#",
-    liveLink: "https://evoluxia-theme.myshopify.com/",
-  },
-  {
-    title: "🚀 Ai-kit - Course Store",
-    subtitle:"Shopify store - 2.0",
-    description:(
-  <ul className="list-disc pl-5 space-y-1">
-      <li>🚀 AIKIT is a sleek, course-focused Shopify theme designed with <span className="text-white font-bold-300">HTML, CSS, JavaScript, and Liquid </span>.</li>
-      <li>It features elegant animations, fully responsive layouts, and customizable section blocks—perfect for modern online learning platforms 💻✨.</li>
-    </ul>
     ),
-    src: "aikit.jpg",
-    link: "https://i.postimg.cc/m2d0VPcf/ai-kit.png",
-    color: "#f7ed8f",
+    src: "react.jpg",
+    link: "https://i.postimg.cc/Fs69WtbP/afi.png",
+    color: "#6f69ff",
     githubLink: "#",
-    liveLink:"https://wdt-ai-kit.myshopify.com/",
+    liveLink: "https://ors.indianathletics.in/#/login",
   },
- 
 ];
 
 export default function Projects() {
@@ -389,7 +524,7 @@ function Card({
 Card.propTypes = {
   i: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  subtitle:PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,

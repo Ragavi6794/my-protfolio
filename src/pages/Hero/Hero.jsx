@@ -200,7 +200,7 @@ const profile = {
                   <span className="relative inline-block">
                     <span className="typing-effect gradient-text sm:text-3xl lg:text-5xl">
                       {" "}
-                      Shopify & React Developer
+                      Shopify Developer
                     </span>
                   </span>
                 </h1>
@@ -228,7 +228,7 @@ const profile = {
                 </p>
               </div>
               {/* icons */}
-              <div className="flex gap-5 mt-6 mb-20 sm:mb-20 justify-start">
+              <div className="flex gap-5 mt-6 mb-10 sm:mb-20 justify-start">
                 {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com/in/ragavi-m-a05439207"
