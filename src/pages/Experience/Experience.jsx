@@ -58,34 +58,18 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
-    
-    {
-      icon: FaReact,
-      title: "React Developer",
-      company: "Sporting India Tech Solutions",
-      place:"Coimbatore",
-      period: "2022 -2023",
-      description:
-       (<ul className="list-disc pl-5 space-y-1">
-  <li>Designed and developed multi-step registration forms and login forms using <i className="text-white">HTML5, CSS3, Bootstrap 5, and React.js</i> with cross-browser compatibility.</li>
-  <li>Built <i className="text-white">Reusable React components</i> for UI consistency and maintainability.</li>
-  <li>Implemented routing using <i className="text-white">React Router</i> for seamless navigation.</li>
-  <li>Handled form validations using <i className="text-white">React Hooks,Use State,Use Effect and controlled components.</i></li>
-  <li>Developed for athletic and sports federation websites with a focus on performance and user experience.</li>
-</ul>)
-    },
-    {
+     {
       icon: FaShopify,
       title: "Shopify Developer",
       company: "WeDesign Tech Pvt Ltd",
       place:"Coimbatore",
-      period: "2023 - present",
+      period: "May 23 - present",
       description:
      (
       <ul className="list-disc pl-5 space-y-1">
         
         <li>Customized storefronts using <i className="text-white">HTML5, CSS3, Bootstrap 5, JavaScript, and Liquid </i> by writing clean, maintainable code.</li>
-        <li>  I developed multiple	premium themes based on <i className="text-white">Converted Figma/PSD designs into pixel-perfect, responsive Shopify themes.</i></li> 
+        <li> I developed multiple	premium themes based on <i className="text-white">Converted Figma/PSD designs into pixel-perfect, responsive Shopify themes.</i></li> 
         <li>I Worked extensively on Shopify 2.0 framework,<i className="text-white"> building scalable theme Framework</i> with support for product, collection, blog templates, AJAX cart, and dynamic filtering.</li>
         <li> I’ve also handled <i className="text-white"> dynamic & custom sections, blocks,
             third-party app integrations, custom metafields, checkout customizations, and payment gateway </i>
@@ -96,12 +80,28 @@ const ExperienceSection = () => {
       </ul>
     )
     },
+    {
+      icon: FaReact,
+      title: "React Developer",
+      company: "Sporting India Tech Solutions",
+      place:"Coimbatore",
+      period: "Apr 22 - May 23",
+      description:
+       (<ul className="list-disc pl-5 space-y-1">
+  <li>Designed and developed multi-step registration forms and login forms using <i className="text-white">HTML5, CSS3, Bootstrap 5, and React.js</i> with cross-browser compatibility.</li>
+  <li>Built <i className="text-white">Reusable React components</i> for UI consistency and maintainability.</li>
+  <li>Implemented routing using <i className="text-white">React Router</i> for seamless navigation.</li>
+  <li>Handled form validations using <i className="text-white">React Hooks,Use State,Use Effect and controlled components.</i></li>
+  <li>Developed for athletic and sports federation websites with a focus on performance and user experience.</li>
+</ul>)
+    },
+   
      {
       icon: FaHtml5,
       title: "Freelancer",
       company: "EMTS , Fivver",
       place:"Tirupur / Globally",
-      period: "2022 - present",
+      period: "Aug 22 - present",
       description:
      (
       <ul className="list-disc pl-5 space-y-1">
@@ -133,7 +133,7 @@ const ExperienceSection = () => {
       title: "Customer Relationship Manager",
       company: "Aravind Honda",
       place:"Sathyamangalam",
-      period: "2016 - 2022",
+      period: "2016 - 2020",
       description:
        (
         <ul className="list-disc pl-5 space-y-1">
