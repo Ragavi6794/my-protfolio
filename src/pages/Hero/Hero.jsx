@@ -60,7 +60,7 @@ const profile = {
         'Javascript', 'Reactjs', 'Nodejs', 'Shopify Theme Customize',
         'Liquid Template Lang', '3rd party App Integration',
         'Payment Integeration','Add Custom Metafield', 'GraphQL'
-        'Cross Browser & Responsive Designer', 'Git/Github', 
+        'Cross Browser & Responsive Designer', 'Git/Github','Shopify CLI' 
     ],
     hardWorker: true,
     dedicator:true,

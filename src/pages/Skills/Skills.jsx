@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud} from "lucide-react";
+import { Code2, Paintbrush, Database, Layout, Cpu, Cloud, GitBranch} from "lucide-react";
 import { AiFillCode,AiOutlineSetting } from 'react-icons/ai';
 import { BiPlug,BiErrorCircle} from 'react-icons/bi';
 import { MdTimer, MdCheckCircleOutline } from 'react-icons/md';
@@ -131,6 +131,10 @@ const SkillsSection = () => {
           name: "GraphQL",
           icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
         },
+        // {
+        //   name: "Shopify CLI",
+        //   icon: <GitBranch className="w-4 h-4 text-[#41f86e]" />,
+        // },
       ],
     },
     {
