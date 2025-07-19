@@ -10,7 +10,7 @@ import {
   FaBars,
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-
+import favicon from '@/assets/images/favicon.png';
 export default function Header() {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(() => {
@@ -52,7 +52,10 @@ export default function Header() {
           <nav className="bg-gray-900/90 backdrop-blur-md md:rounded-full px-4 md:px-6 py-2.5">
             {/* Mobile Menu Button */}
             <div className="flex justify-between items-center md:hidden px-2">
-              <Link to="/" className="text-white font-bold">Portfolio</Link>
+              
+              <Link to="/" className="text-white font-bold">
+                <img src={favicon} alt="Favicon" className="w-8 h-8" />
+              </Link>
               <button 
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="text-white p-2"

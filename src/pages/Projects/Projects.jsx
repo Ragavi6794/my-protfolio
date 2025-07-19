@@ -19,8 +19,8 @@ const projects = [
           <i className="text-white">Inbox, Judge.me, and Translate</i> apps.
         </li>
         <li>
-          Achieved <i className="text-white font-bold-300">80+ sales</i> on
-          ThemeForest within just 6 months. 💻✨
+          
+          Achieved over <i className="text-white font-bold-300">80+ sales</i> on ThemeForest within just 6 months💻✨
         </li>
       </ul>
     ),
@@ -36,12 +36,11 @@ const projects = [
     description: (
       <ul className="list-disc pl-5 space-y-1">
         <li>
-          <strong>Alagi</strong> (password: <i>buddha</i>) is a responsive &
-          built independently using{" "}
+         Its <strong>(password: <i>buddha</i>)</strong> fully responsive theme, independently built using{" "}
           <span className="text-white font-bold-300">
-            HTML5, CSS3, Bootstrap 5, JavaScript, and Liquid
+            HTML5, CSS3, Bootstrap 5, JavaScript, and Liquid.
           </span>
-          .
+          
         </li>
         <li>
           Developed with{" "}
@@ -107,10 +106,9 @@ const projects = [
         <li>
           It includes{" "}
           <span className="text-white font-bold-300">
-            10 stylish theme layouts, 40+ stylish layouts for main-product, 2+
-            of contact layouts , 5+ footer layouts{" "}
+           10+ stylish theme layouts, 40+ main product layouts, 2+ contact page layouts, and 5+ footer layouts {" "}
           </span>{" "}
-          making with responsived it perfect reusable sections and blocks. 💻✨
+          — all designed with responsive, reusable sections and blocks. 💻✨
         </li>
       </ul>
     ),
@@ -133,7 +131,7 @@ const projects = [
           It's an exceptionally optimized theme and
           <span className="text-white font-bold-300">
             {" "}
-            built with independatally using HTML5, CSS3, Js,Liquid{" "}
+           independently built using HTML5, CSS3, JavaScript, and Liquid{" "}
           </span>{" "}
           with customization sections and flexible settings. 💻✨.
         </li>
@@ -160,9 +158,8 @@ const projects = [
           .
         </li>
         <li>
-          Added customizable sections and blocks with{" "}
-          <span class="text-white">Judge.me app</span> and{" "}
-          <span class="text-white">Search & Discovery</span> app integration.
+          Includes customizable sections and blocks,  
+          <span class="text-white">integrated with Judge.me and Search & Discovery apps.</span>
         </li>
         <li>
           Achieved <span class="text-white font-bold-300">100+ sales</span> on
