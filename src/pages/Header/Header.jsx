@@ -53,8 +53,14 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <div className="flex justify-between items-center md:hidden px-2">
               
-              <Link to="/" className="text-white font-bold">
-                <img src={favicon} alt="Favicon" className="w-8 h-8" />
+              <Link to="/" className="text-white font-bold flex gap-3 align-middle">
+                <img src={favicon} alt="Favicon" className="w-8 h-8" /> 
+                {/* <span className="text-3xl font-bold 
+  bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 
+  bg-clip-text text-transparent animate-gradient-x"
+>
+  Universe
+</span> */}
               </Link>
               <button 
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
